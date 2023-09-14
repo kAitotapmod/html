@@ -1,0 +1,60 @@
+/* style.css */
+
+
+/* Đặt lại một số kiểu mặc định */
+
+body,
+h1,
+h2,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Thiết kế phần tiêu đề */
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+
+/* Thiết kế menu điều hướng */
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Thiết kế các phần */
+
+section {
+    padding: 40px;
+}
+
+
+/* Thiết kế phần chân trang */
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
